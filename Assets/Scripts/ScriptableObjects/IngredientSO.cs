@@ -1,23 +1,6 @@
 using UnityEngine;
 
-public enum IngredientType
-{
-    Bitki,      // Otlar, çiçekler
-    Mineral,    // Taþlar, tozlar
-    Organik,    // Böcek parçalarý, gözler vb.
-    Sivi        // Þiþelenmiþ sular, yaðlar
-}
-
-public enum PotionEffectType
-{
-    Iyilesme,
-    Guclendirme,
-    Zehir,
-    Uyku,
-    Ask
-}
-
-[CreateAssetMenu(fileName = "IngredientSO", menuName = "Scriptable Objects/IngredientSO")]
+[CreateAssetMenu(fileName = "Yeni Malzeme", menuName = "CadiOyunu/Malzeme (Ingredient)")]
 public class IngredientSO : ScriptableObject
 {
     [Header("Temel Bilgiler")]
